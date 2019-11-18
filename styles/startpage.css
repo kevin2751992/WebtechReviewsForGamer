@@ -7,6 +7,9 @@
     font-family: Verdana;
   }
 
+  h2.content, h3.content, h4.content{
+    color: rgb(29, 117, 121);
+  }
 
 /*------Header----------*/
 .headerBanner {
@@ -73,15 +76,36 @@
   .main-container{
     width: 80%;
   }
+
+  .content.highlightsHeadline{
+    
+    margin: 0px;
+    font-size: larger;
+    color: #000;
+  }
+
+  .highlightsText{
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+
+/*--TopContentSlider---*/
  /* Slideshow container */
 .slideshow-container {
-  max-width: 350px;
+  max-width: 450px;
   position: relative;
   margin: auto;
 }
 
 /* Hide the images by default */
-.mySlides {
+.highlightImgSlides {
+  display: none;
+}
+.highlightHeaderSlides {
+  display: none;
+}
+.highlightContentSlides {
   display: none;
 }
 
@@ -112,19 +136,19 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
+/* SliderShow Caption text */
+.sliderCaptiontext {
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
+  position: relative;
+  bottom: 0px;
   width: 100%;
   text-align: center;
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+.sliderPaginationText {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -183,17 +207,35 @@
 
 
 /*------Responsive----------*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
     .headerNavBar a {
         float: left;
         padding: 10px;
         color: white;
         text-decoration: none;
-        font-size: 18px;
+        font-size: 14px;
         width: 25%;
         text-align: center;
         box-sizing: border-box;
       
+    }
+    .content.header{
+      color: rgb(29, 117, 121);
+      float: none !important;
+      border-bottom: 2px solid rgb(29, 117, 121);
+      font-size: 12px;
+      width:90%;
+    }
+    .newsticker.newstext, .sliderCaptiontext{
+      font-size: 10px ;
+    }
+    
+    .highlightContentSlides, .highlightHeaderSlides, .h4, .h3, .h2, .h1{
+    
+      font-size: 12px ;
+    }
+    .h4{
+      font-size: medium;
     }
 }
