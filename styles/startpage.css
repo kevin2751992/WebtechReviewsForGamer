@@ -70,6 +70,9 @@
   .content.main {
     width: 50%;
   }
+  .main-container{
+    width: 80%;
+  }
  /* Slideshow container */
 .slideshow-container {
   max-width: 350px;
