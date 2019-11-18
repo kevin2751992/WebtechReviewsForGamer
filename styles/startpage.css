@@ -4,6 +4,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: Verdana;
   }
 
 
@@ -33,32 +34,70 @@
     color: black;
 }
 .headerNavBar a.active{
-    background-color:rgb(64, 144, 74);
+    background-color:rgb(29, 117, 121);
 }
 /*------ContentLayout---------*/
 /*  Content will be set next to each other */
 .content {
     float: left;
   }
+.content.header{
+  color: rgb(29, 117, 121);
+  float: none !important;
+  border-bottom: 2px solid rgb(29, 117, 121);
+  width:90%;
+}
+
+
   
   /* Left and right column Newsletter and Ads  */
   .content.side {
     width: 25%;
   }
+  /*Newsticker content*/
+  .newsticker {
+    width: 90%;
+  }
+  .newsticker.news{
+    border-bottom: 1px solid rgb(29, 117, 121);
+  }
+  .newsticker.newstext{
+    margin-top: -5px;
+  }
+
   
   /*  MainContent Middle Column */
   .content.main {
     width: 50%;
-    background-color: darkgrey;
+  }
+  content.main.slideshow{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
   }
 
   /* Clear floats after the columns */
-.row:after {
+.content:after {
     content: "";
     display: table;
     clear: both;
   }
-  
 
 /*------NewsTicker---------*/
 
