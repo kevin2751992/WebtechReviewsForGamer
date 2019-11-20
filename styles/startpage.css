@@ -51,8 +51,6 @@
   width:90%;
 }
 
-
-  
   /* Left and right column Newsletter and Ads  */
   .content.newstickerSide {
     width: 25%;
@@ -71,7 +69,6 @@
     font-size: 14px;
   }
 
-  
   /*  MainContent Middle Column */
   .content.main {
     width: 50%;
@@ -79,10 +76,8 @@
   .main-container{
     width: 80%;
   }
-  /*  Newsletterbar */
- 
-  
 
+  /*  Newsletterbar */
   .content.highlightsHeadline{
     
     margin: 0px;
@@ -95,7 +90,6 @@
     font-weight: bold;
   }
   
-
 /*--TopContentSlider---*/
  /* Slideshow container */
 .slideshow-container {
@@ -195,18 +189,12 @@
   from {opacity: .4}
   to {opacity: 1}
 }
-
   /* Clear floats after the columns */
 .content:after {
     content: "";
     display: table;
     clear: both;
   }
-
-
-
-
-
 /*------ADS---------*/
 .aboButton{
   display: block;
@@ -222,6 +210,10 @@
   margin-bottom: 15px;
   text-align: center;
 }
+.aboButton:hover{
+  color: black;
+  
+}
 .adsImg{
  width:80%;
  height:auto;
@@ -231,8 +223,6 @@
  margin-bottom: 5%;
 
 }
-
-
 /*------Responsive----------*/
 @media screen and (max-width: 1024px) {
 
@@ -280,12 +270,12 @@
       text-align: center;
       
     }
+    
   }
   @media screen and (max-width: 480px) {
 
       .content.main{
         width: 70%;
-        
       }
       .content.newstickerSide{
         width: 30%;
@@ -331,8 +321,5 @@
         display: block;
         float: left;
         margin-bottom: 10px;
-       
        }
-    
-
 }
