@@ -54,7 +54,10 @@
 
   
   /* Left and right column Newsletter and Ads  */
-  .content.side {
+  .content.newstickerSide {
+    width: 25%;
+  }
+  .content.adsSide {
     width: 25%;
   }
   /*Newsticker content*/
@@ -65,7 +68,7 @@
     border-bottom: 1px solid rgb(29, 117, 121);
   }
   .newsticker.newstext{
-    font-size: small;
+    font-size: 14px;
   }
 
   
@@ -76,6 +79,9 @@
   .main-container{
     width: 80%;
   }
+  /*  Newsletterbar */
+ 
+  
 
   .content.highlightsHeadline{
     
@@ -93,7 +99,7 @@
 /*--TopContentSlider---*/
  /* Slideshow container */
 .slideshow-container {
-  max-width: 450px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -197,17 +203,38 @@
     clear: both;
   }
 
-/*------NewsTicker---------*/
 
 
 
-/*------ADS---------*
 
+/*------ADS---------*/
+.aboButton{
+  display: block;
+  border-radius: 8px;
+  width: 80%;
+  height: -2%;
+  font-size: large;
+  padding: 15px;
+  background-color: #1e7579;
+  color: white;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.adsImg{
+ width:80%;
+ height:auto;
+ margin: auto;
+ display: block;
+ margin-top: 5%;
+ margin-bottom: 5%;
 
+}
 
 
 /*------Responsive----------*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
 
     .headerNavBar a {
         float: left;
@@ -227,15 +254,85 @@
       font-size: 12px;
       width:90%;
     }
-    .newsticker.newstext, .sliderCaptiontext{
+    .newsticker.newstext, .sliderCaptiontext {
       font-size: 10px ;
     }
     
-    .highlightContentSlides, .highlightHeaderSlides, .h4, .h3, .h2, .h1{
+    .highlightContentSlides, .highlightHeaderSlides, .newsticker.newsHeader, .h3, .h2, .h1{
     
       font-size: 12px ;
     }
     .h4{
       font-size: medium;
     }
+    .aboButton{
+      display: block;
+      border-radius: 8px;
+      width: 80%;
+      height: -2%;
+      font-size: SMALL;
+      padding: 5px;
+      background-color: #1e7579;
+      color: white;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+      
+    }
+  }
+  @media screen and (max-width: 480px) {
+
+      .content.main{
+        width: 70%;
+        
+      }
+      .content.newstickerSide{
+        width: 30%;
+      }
+      .newsticker.newsHeader{
+        font-size: 10px;
+      }
+      .highlightContentSlides, .highlightHeaderSlides, .newsticker.newsHeader, .h3, .h2, .h1{
+    
+        font-size: 10px ;
+      }
+      .content.adsSide{
+        width: 100%;
+        float: left;
+      }
+      .adsContainer{
+        float: left;
+        width: 100%;
+      }
+      .optionalHeader{
+        display: none;
+      }
+      .aboButton{
+        display: block;
+        border-radius: 8px;
+        width: 80%;
+        height: -2%;
+        font-size: SMALL;
+        padding: 5px;
+        background-color: #1e7579;
+        color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .adsImg{
+        width: 27%;
+        height: auto;
+        margin: auto;
+        margin-right: 3%;
+        margin-left: 3%;
+        display: block;
+        float: left;
+        margin-bottom: 10px;
+       
+       }
+    
+
 }

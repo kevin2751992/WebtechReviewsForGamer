@@ -23,46 +23,41 @@
         </div>
         <nav>
             <section class="content">
-                <section class="content side">
+
+                <!-- NewsTicker-->
+                <section class="content newstickerSide">
                     <div class="content newsticker">
 
                         <h2 class="content header">Newsticker</h2>
                         <div class="content newsticker news">
-                            <h4>TestNews</h4>
+                            <h4 class="newsticker newsHeader">TestNews</h4>
                             <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit..</p>
                         </div>
 
                         <div class="content newsticker news">
-                            <h4>TestNews</h4>
-                            <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit..</p>
-                        </div>
-
-                        <div class="content newsticker news">
-                            <h4>TestNews</h4>
-                            <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit..</p>
-                        </div>
-
-                        <div class="content newsticker news">
-                            <h4>TestNews</h4>
+                            <h4 class="newsticker newsHeader">TestNews</h4>
                             <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit..</p>
                         </div>
                         <div class="content newsticker news">
-                            <h4>TestNews</h4>
+                            <h4 class="newsticker newsHeader">TestNews</h4>
                             <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit..</p>
                         </div>
                         <div class="content newsticker news">
-                            <h4>TestNews</h4>
+                            <h4 class="newsticker newsHeader">TestNews</h4>
+                            <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit..</p>
+                        </div>
+                        <div class="content newsticker news">
+                            <h4 class="newsticker newsHeader">TestNews</h4>
                             <p class="newsticker newstext">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit..</p>
                         </div>
                     </div>
                 </section>
-
+                <!-- Main Content -->
                 <section class="content main">
                     <h2 class="content header">Unsere Higlights</h2>
                     <div class="main-container">
@@ -70,27 +65,26 @@
                         <!-- Slideshow -->
                         <div class="slideshow-container ">
                             <!-- IMG1 -->
-
                             <p class="highlightsText highlightHeaderSlides" style="display: block;"> Gamesförderung - 50
                                 Millionen Euro für Videospiele: Deutsche Gamesförderung läuft 2020 nun doch weiter</p>
                             <div class="highlightImgSlides {
                                 fade" style="display: block;">
-                                <img src="assets/testIMG.jpg" style="width:100%">
-                                <div class="text">Caption Text</div>
+                                <img src="assets/testIMG.jpg" alt="Highlight Thumbnail" style="width:100%">
                             </div>
 
                             <!-- IMG2 -->
                             <p class="highlightsText highlightHeaderSlides"> Test2 - 50
                                 Millionen Euro für Videospiele: Deutsche Gamesförderung läuft 2020 nun doch weiter</p>
                             <div class="highlightImgSlides fade">
-                                <img src="assets/testIMG2.jpg" style="width:100%">
+                                <img src="assets/testIMG2.jpg" alt="Highlight Thumbnail" style="width:100%">
                                 <div class="text">Caption Two</div>
                             </div>
+
                             <!-- IMG3 -->
                             <p class="highlightsText highlightHeaderSlides"> Test 3 - 50
                                 Millionen Euro für Videospiele: Deutsche Gamesförderung läuft 2020 nun doch weiter</p>
                             <div class="highlightImgSlides fade">
-                                <img src="assets/testIMG3.jpeg" style="width:100%">
+                                <img src="assets/testIMG3.jpeg" alt="Highlight Thumbnail" style="width:100%">
                                 <div class="text">Caption Three</div>
                             </div>
                             <!-- Next and previous buttons -->
@@ -104,6 +98,8 @@
                             <span class="dot" onclick="setCurrentSlide(2)"></span>
                             <span class="dot" onclick="setCurrentSlide(3)"></span>
                         </div>
+
+                        <!-- ContentSlides-->
                         <div class="highlightContentSlides" style="display: block;">
                             <p>Nach der vorübergehenden Streichung aller Fördergelder und dem Vorwurf der
                                 Planungsunsicherheit aus der Spielebranche sieht der neue Haushaltsentwurf der
@@ -123,14 +119,27 @@
                                 Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus
                                 quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
                         </div>
+
                     </div>
 
 
                 </section>
+                <!--ADS-->
+                <section class="content adsSide">
 
-                <section class="content side">
-                    <h2 class="content header">Side</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+                    <aside>
+
+                        <h2 class="content header optionalHeader">Unser Partner</h2>
+
+                        <div class="adsContainer">
+                            <a class="aboButton">Abboniere jetzt unseren Newsletter</a>
+                            <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                            <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                            <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                        </div>
+
+                    </aside>
+
                 </section>
             </section>
 
