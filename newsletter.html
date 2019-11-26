@@ -1,52 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles/newsletter.css">
+    <script src="scripts/newsletter.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <Header class="headerBanner">
-        <img class="headerBanner" src="assets/BannerGamesForReview.png" alt="BannerLogo">
+        <img class="headerBanner" src="assets/BannerGamesForReview.png" alt="GamesForReview Von Gamer für Gamer">
     </Header>
-    <div class="headerNavBar">
-        <a class="active" href="#newsletter">Startseite</a>
-        <a class="headerNavbarElement" href="#newsletter">News</a>
-        <a class="headerNavbarElement" href="#newsletter">Reviews</a>
-        <a class="headerNavbarElement" href="#newsletter">Newsletter</a>
+    <div class="headerNavBar" role="navigation">
+        <a class="active" href="index.html" role="menuitem">Startseite</a>
+        <a class="headerNavbarElement" href="newsletter.html" role="menuitem">News</a>
+        <a class="headerNavbarElement" href="newsletter.html" role="menuitem">Reviews</a>
+        <a class="headerNavbarElement" href="newsletter.html" role="menuitem">Newsletter</a>
     </div>
     <section class="content">
-
-
         <!-- Main Content -->
         <section class="content main">
-            
-            <div class="newsletter container">
-                <h2 class="content header">Abboniere jetzt unseren Newsletter</h2>
-                <form action="/action_page.php">
-                    <div class="newsletter container">
-                        <p>Lorem ipsum text about why you should subscribe to our newsletter blabla. Lorem ipsum text
-                            about why you should subscribe to our newsletter blabla.</p>
-                            <div class="input container">
-                                <input  class="input element" type="text" onblur="my" placeholder="Name" name="name" required>
-                                <input class="input element" type="text" placeholder="Email address" name="mail" required>
-                                <div class="container">
-                                    <input class="aboButton" type="submit" value="Subscribe">
-                                </div>
-                            </div>
-                    </div>
 
-                    
-                </form>
-
-
+            <div class="newsletter container" role="form">
+                <h1 class="content header">Abboniere jetzt unseren Newsletter</h1>
+                <p class="newsletter text" role="document">Mit unseren Newslettern erhältst du genau die News, die
+                    dich interessieren - direkt in deine Mailbox.</p>
+                <input class="input element" type="text" placeholder="Name" id="name" maxlength="50"
+                    alt="Eingabefeld für den Namen" aria-label="Eingabefeld für den Namen">
+                <input class="input element" type="text" placeholder="E-Mail-Adresse" id="mail" maxlength="50"
+                    alt="Eingabefeld für die E-Mail" aria-label="Eingabefeld für die E-Mail-Adresse">
+                <button class="aboButton" onclick="testInput()" id="newsletterAboButton"
+                    aria-label="Eingaben abschicken und Newsletter abonnieren.">Abonnieren</button>
             </div>
-
-
         </section>
         <!--ADS-->
         <section class="content adsSide">
@@ -54,7 +42,6 @@
             <aside>
 
                 <h2 class="content header optionalHeader">Unsere Partner</h2>
-                <a class="aboButton">Abboniere jetzt unseren Newsletter</a>
                 <div class="adsContainer">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
