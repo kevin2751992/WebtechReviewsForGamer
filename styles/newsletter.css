@@ -1,0 +1,225 @@
+/*------Boxsizing----------*/
+/*makes sure that the padding and border are included
+ in the total width and height of all HTML elements.*/
+
+ * {
+    box-sizing: border-box;
+    font-family: Verdana;
+  }
+  h2.content, h3.content, h4.content{
+    color: rgb(29, 117, 121);
+  }
+  h1.content {
+    font-size: 24px;
+  }
+/*------Header----------*/
+.headerBanner {
+    width: 100%;
+  }
+
+/*------Navbar----------*/
+.headerNavBar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.headerNavBar a{
+    float: left;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.headerNavBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.headerNavBar a.active{
+    background-color:rgb(29, 117, 121);
+}
+/*------ContentLayout---------*/
+/*  Content will be set next to each other */
+.content {
+    float: left;
+  }
+.content.header{
+  color: rgb(29, 117, 121);
+  float: none !important;
+  border-bottom: 2px solid rgb(29, 117, 121);
+  width:90%;
+}
+
+  /* Left and right column Newsletter and Ads  */
+  .content.adsSide {
+    width: 25%;
+  }
+
+  /*  MainContent Middle Column */
+  .content.main {
+    width: 75%;
+  }
+  .newsletter.container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .newsletter.text{
+    width: 90%;
+    font-size: 16pt;
+    line-height: 130%;
+    margin-bottom: 7%;
+  }
+  .input.container{
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+  }
+  .input.element{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    height: 20%;
+    font-size: 14pt;
+  }
+  .aboButton{
+    display: block;
+    border-radius: 8px;
+    width: 80%;
+    height: -2%;
+    font-size: large;
+    padding: 15px;
+    background-color: #1e7579;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .aboButton:hover{
+    color: black;
+    
+  }
+
+  /* Clear floats after the columns */
+.content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+/*------ADS---------*/
+.aboButton{
+  display: block;
+  border-radius: 8px;
+  width: 80%;
+  height: -2%;
+  font-size: large;
+  padding: 15px;
+  background-color: #1e7579;
+  color: white;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.aboButton:hover{
+  color: black;
+  
+}
+.adsImg{
+ width:80%;
+ height:auto;
+ margin: auto;
+ display: block;
+ margin-top: 5%;
+ margin-bottom: 5%;
+
+}
+/*------Responsive----------*/
+@media screen and (max-width: 1024px) {
+
+    .headerNavBar a {
+        float: left;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+      
+    }
+    .content.header{
+      color: rgb(29, 117, 121);
+      float: none !important;
+      border-bottom: 2px solid rgb(29, 117, 121);
+      font-size: 12px;
+      width:75%;
+    }
+
+    .h4{
+      font-size: medium;
+    }
+    .aboButton{
+      display: block;
+      border-radius: 8px;
+      width: 80%;
+      height: -2%;
+      font-size: SMALL;
+      padding: 5px;
+      background-color: #1e7579;
+      color: white;
+      margin: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+      
+    }
+    
+  }
+  @media screen and (max-width: 480px) {
+
+      .content.main{
+        width: 70%;
+      }
+      .content.newstickerSide{
+        width: 30%;
+      }
+      .content.adsSide{
+        width: 100%;
+        float: left;
+      }
+      .adsContainer{
+        float: left;
+        width: 100%;
+      }
+      .optionalHeader{
+        display: none;
+      }
+      .aboButton{
+        display: block;
+        border-radius: 8px;
+        width: 80%;
+        height: -2%;
+        font-size: SMALL;
+        padding: 5px;
+        background-color: #1e7579;
+        color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      .adsImg{
+        width: 27%;
+        height: auto;
+        margin: auto;
+        margin-right: 3%;
+        margin-left: 3%;
+        display: block;
+        float: left;
+        margin-bottom: 10px;
+       }
+}
