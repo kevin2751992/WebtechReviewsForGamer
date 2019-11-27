@@ -13,7 +13,7 @@
 
 /*------Header----------*/
 .headerBanner {
-    width: 100%;
+    width: 75%;
   }
 
 /*------Navbar----------*/
@@ -247,9 +247,9 @@ footer a:hover{
   color: black;
 }
 footer img{
-  width: 25%;
+  width: 15%;
   position: relative;
-  top: 8px;
+  
   float: right;
   margin-right: 20px;
 }
