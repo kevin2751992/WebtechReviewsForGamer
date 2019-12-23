@@ -1,0 +1,246 @@
+/*------Boxsizing----------*/
+/*makes sure that the padding and border are included
+ in the total width and height of all HTML elements.*/* {
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+h2.content, h3.content, h4.content{
+  color: rgb(29, 117, 121);
+}
+/*------Logo----------*/
+.headerBanner {
+  width: 75%;
+}
+/*------Navbar----------*/
+.headerNavBar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+.headerNavBar a{
+    float: left;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.headerNavBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.headerNavBar a.active{
+    background-color:rgb(29, 117, 121);
+}
+
+/*------General Content----------*/
+
+/*  Content will be set next to each other */
+.content {
+    float: left;
+  }
+  /*  Main Content will use 75% of max width */
+.content.main {
+    width:50%;
+  }
+
+.main-container{
+width: 80%;
+}
+.content.adsSide {
+    width: 25%;
+  }
+
+.content.header{
+    color: rgb(29, 117, 121);
+    float: none !important;
+    border-bottom: 2px solid rgb(29, 117, 121);
+    width:90%;
+  }
+
+.content.highlightsHeadline{
+    
+    margin: 0px;
+    font-size: larger;
+    color: #000;
+}  
+  
+.highlightsText{
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*------ADS----------*/
+.aboButton{
+    display: block;
+    border-radius: 8px;
+    width: 80%;
+    height: -2%;
+    font-size: large;
+    padding: 15px;
+    background-color: #1e7579;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .aboButton:hover{
+    color: black;
+    
+  }
+  .adsImg{
+   width:80%;
+   height:auto;
+   margin: auto;
+   display: block;
+   margin-top: 5%;
+   margin-bottom: 5%;
+  
+  }
+
+/*------Footer----------*/
+footer{
+    background-color: #545454;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+  }
+  footer a{
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    width: 15%;
+    /* margin: auto; */
+    float: left;
+    text-align: center;
+  }
+  footer a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  footer img{
+    width: 15%;
+    position: relative;
+    
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  /*------Responsive----------*/
+@media screen and (max-width: 1024px) {
+
+    .headerNavBar a {
+        float: left;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+      
+    }
+    .content.header{
+      color: rgb(29, 117, 121);
+      float: none !important;
+      border-bottom: 2px solid rgb(29, 117, 121);
+      font-size: 12px;
+      width:90%;
+    }
+    .h4{
+        font-size: medium;
+      }
+      .aboButton{
+        display: block;
+        border-radius: 8px;
+        width: 80%;
+        height: -2%;
+        font-size: SMALL;
+        padding: 5px;
+        background-color: #1e7579;
+        color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        
+      }
+
+      
+      footer a {
+        padding: 13px;
+        font-size: 12px;
+    }
+     
+      footer img{
+        width: 15%;
+        position: relative;
+        
+        float: right;
+        margin-right: 20px;
+      }
+      
+    }
+    @media screen and (max-width: 480px) {
+  
+        .content.main{
+          width: 70%;
+        }
+          .content.adsSide{
+            width: 100%;
+            float: left;
+          }
+          .adsContainer{
+            float: left;
+            width: 100%;
+          }
+          .optionalHeader{
+            display: none;
+          }
+          .aboButton{
+            display: block;
+            border-radius: 8px;
+            width: 80%;
+            height: -2%;
+            font-size: SMALL;
+            padding: 5px;
+            background-color: #1e7579;
+            color: white;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+          }
+        .adsImg{
+            width: 27%;
+            height: auto;
+            margin: auto;
+            margin-right: 3%;
+            margin-left: 3%;
+            display: block;
+            float: left;
+            margin-bottom: 10px;
+        }
+
+        footer a{
+          padding: 6px;
+          font-size: 8px;
+        }
+    }
+    @media screen and (max-width: 600px) {
+
+      footer a{
+        padding: 9px;
+        font-size: 10px;
+      }
+      
+      footer img{
+       top:5px;
+      }
+      
+    }
