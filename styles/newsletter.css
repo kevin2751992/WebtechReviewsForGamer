@@ -137,6 +137,34 @@
  margin-bottom: 5%;
 
 }
+
+footer{
+  background-color: #545454;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+}
+footer a{
+  padding: 20px;
+  font-size: 16px;
+  color: white;
+  width: 15%;
+  /* margin: auto; */
+  float: left;
+  text-align: center;
+}
+footer a:hover{
+  background-color: #ddd;
+  color: black;
+}
+footer img{
+  width: 15%;
+  position: relative;
+  
+  float: right;
+  margin-right: 20px;
+}
+
 /*------Responsive----------*/
 @media screen and (max-width: 1024px) {
 
