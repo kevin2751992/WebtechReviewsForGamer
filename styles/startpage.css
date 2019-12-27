@@ -23,6 +23,10 @@
     text-decoration: none;
     color: black;
   }
+  .newsticker.news:hover{
+    
+    color: rgb(29, 117, 121);
+  }
   .newsticker.newstext{
     font-size: 14px;
   }

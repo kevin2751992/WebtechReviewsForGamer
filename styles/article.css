@@ -21,3 +21,23 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+@media screen and (max-width: 1024px) {
+  article{
+    font-size: small;
+   
+  }
+  .video{
+    width: 60%;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 720px) {
+  article{
+    font-size: small;
+   
+  }
+  .video{
+    width: 60%;
+    height: auto;
+  }
+}
