@@ -20,6 +20,8 @@
   }
   .newsticker.news{
     border-bottom: 1px solid rgb(29, 117, 121);
+    text-decoration: none;
+    color: black;
   }
   .newsticker.newstext{
     font-size: 14px;

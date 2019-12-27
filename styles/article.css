@@ -1,4 +1,23 @@
 @import "basicLayout.css"; 
 .content.main {
     width:75%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
+.newstext{
+  text-align: justify;
+}
+.thumbnail{
+  height:220px;
+  width: 100%;
+}
+.video{
+  display: flex;
+  width: 560px;
+  height: 315px;
+  margin: auto;
+  border-top: 10px solid #1e7579;
+  border-bottom: 10px solid #1e7579;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
