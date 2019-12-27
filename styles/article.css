@@ -1,1 +1,4 @@
 @import "basicLayout.css"; 
+.content.main {
+    width:75%;
+  }
