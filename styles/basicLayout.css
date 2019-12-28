@@ -59,6 +59,7 @@ width: 80%;
     float: none !important;
     border-bottom: 2px solid rgb(29, 117, 121);
     width:90%;
+    font-size: larger;
   }
 
 .content.highlightsHeadline{
@@ -191,6 +192,9 @@ footer{
         .content.main{
           width: 70%;
         }
+        h4{
+          font-size: small;
+        }
           .content.adsSide{
             width: 100%;
             float: left;
@@ -237,6 +241,9 @@ footer{
       footer a{
         padding: 9px;
         font-size: 10px;
+      }
+      h4{
+        font-size: small;
       }
       
       footer img{
