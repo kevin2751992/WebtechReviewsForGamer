@@ -46,6 +46,13 @@ h2.content, h3.content, h4.content{
 .content.main {
     width:50%;
   }
+  .content.header{
+    color: rgb(29, 117, 121);
+    float: none !important;
+    border-bottom: 2px solid rgb(29, 117, 121);
+    width:90%;
+    font-size: larger;
+  }
 
 .main-container{
 width: 80%;
@@ -150,7 +157,7 @@ footer{
       color: rgb(29, 117, 121);
       float: none !important;
       border-bottom: 2px solid rgb(29, 117, 121);
-      font-size: 12px;
+      font-size: large;
       width:90%;
     }
     .h4{
@@ -188,9 +195,19 @@ footer{
       
     }
     @media screen and (max-width: 480px) {
+      article{
+        padding-left:5px;
+      }
+
+      .headerNavBar a {
+        font-size: 10px;
+    }
   
         .content.main{
           width: 70%;
+        }
+        h2{
+          font-size: large;
         }
         h4{
           font-size: small;
@@ -232,8 +249,9 @@ footer{
         }
 
         footer a{
-          padding: 6px;
-          font-size: 8px;
+          padding: 10px;
+          font-size: 10px;
+          margin-right: 15px;
         }
     }
     @media screen and (max-width: 600px) {
@@ -241,6 +259,7 @@ footer{
       footer a{
         padding: 9px;
         font-size: 10px;
+        margin-right: 15px;
       }
       h4{
         font-size: small;

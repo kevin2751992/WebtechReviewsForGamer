@@ -4,12 +4,7 @@
  @import "basicLayout.css"; 
 
 /*------ContentLayout---------*/
-.content.header{
-  color: rgb(29, 117, 121);
-  float: none !important;
-  border-bottom: 2px solid rgb(29, 117, 121);
-  width:90%;
-}
+
   /* Newsticker */
   .content.newstickerSide {
     width: 25%;
@@ -155,5 +150,11 @@
 
       .content.newstickerSide{
         width: 30%;
+      }
+      .newsticker.newsHeader{
+        font-size: x-small;
+      }
+      .newsticker.newstext, .sliderCaptiontext {
+        font-size: xx-small ;
       }
 }
