@@ -18,6 +18,8 @@
   .reviewlist.review{
     border-bottom: 1px solid rgb(29, 117, 121);
     font-size: smaller;
+    color: black;
+    text-decoration: none;
   }
   .reviewlist.reviewtext{
     font-size: smaller;
@@ -36,23 +38,23 @@
   .reviewTicker.text{
     text-align: left;
     font-size:small;
-    
   }
   
   .reviewlist.review:hover{
-    
     color: rgb(29, 117, 121);
+    cursor:pointer
   }
 
   .reviewTicker.text.topTipp{
     width: 33%;
     font-size:16px;
+    color: black;
+    text-decoration: none;
   }
 
   .reviewTicker.header{
     text-align: left;
   }
-
 
   /*  Newsletterbar */
   .content.highlightsHeadline{
@@ -78,12 +80,8 @@
     
       font-size: 12px ;
     }
-
-    
-    
-    
-    
   }
+
   @media screen and (max-width: 480px) {
     article{
       padding-left:5px;
@@ -102,13 +100,9 @@
         font-size: 10px;
       }
       .highlightContentSlides, .highlightHeaderSlides, .newsticker.newsHeader, .h3, .h2, .h1{
-    
         font-size: 10px ;
       }
       .content.reviewList {
         width: 30%;
-       
       }
-      
-      
 }
