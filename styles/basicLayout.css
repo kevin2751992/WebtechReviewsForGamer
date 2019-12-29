@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: Verdana;
 }
+article{
+  font-size: 19px;
+  padding: 3px;
+}
 
 h2.content, h3.content, h4.content{
   color: rgb(29, 117, 121);
@@ -51,7 +55,7 @@ h2.content, h3.content, h4.content{
     float: none !important;
     border-bottom: 2px solid rgb(29, 117, 121);
     width:90%;
-    font-size: larger;
+     
   }
 
 .main-container{
@@ -66,7 +70,7 @@ width: 80%;
     float: none !important;
     border-bottom: 2px solid rgb(29, 117, 121);
     width:90%;
-    font-size: larger;
+    font-size: x-large;
   }
 
 .content.highlightsHeadline{
@@ -142,7 +146,9 @@ footer{
 
   /*------Responsive----------*/
 @media screen and (max-width: 1024px) {
-
+  article{
+    font-size: 14px;
+  }
     .headerNavBar a {
         float: left;
         padding: 10px;
@@ -196,22 +202,28 @@ footer{
       
     }
     @media screen and (max-width: 480px) {
+      article{
+        font-size: x-small;
+        padding-left:5px;
+      }
       p{
         font-size: x-small;
       }
       h1,h2,h3,h4{
         font-size: 10px;
       }
-      article{
-        padding-left:5px;
-      }
+      
 
       .headerNavBar a {
         font-size: 10px;
     }
   
         .content.main{
-          width: 70%;
+          width: 65%;
+          padding-left: 5px;
+        }
+        .content.header{
+          font-size: smaller;
         }
         h2{
           font-size: large;
