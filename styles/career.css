@@ -1,0 +1,51 @@
+@import "basicLayout.css";
+
+.containerImg{
+    background-image: "assets/karriere/teamwork.png";
+}
+.karriereText{
+    color: rgb(29, 117, 121);
+    border-bottom: 2px solid rgb(29, 117, 121);
+    width:90%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.careerImg{
+    width: 90%;
+    max-height: 250px;
+}
+.careerAside{
+    width: 30%;
+    float: left;
+    margin-right: 1%;
+    padding: 5px;
+}
+.vancancies{
+    margin-bottom: 25px;
+    font-size: xx-small;
+    display: block;
+}
+.vancanciesContent{
+    
+    padding-left: 8%;
+    padding-right: 0%;
+    /* margin: auto;
+}
+.vancancies:hover{
+    
+    cursor: pointer;
+    color: rgb(29, 117, 121);
+}
+.vancanciesTitle{
+    color: rgb(29, 117, 121);
+}
+
+@media screen and (max-width: 480px) {
+    .vancancies{
+        font-size: xx-small;
+    }
+}
