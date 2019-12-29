@@ -26,14 +26,13 @@
 }
 .vancancies{
     margin-bottom: 25px;
-    font-size: xx-small;
     display: block;
 }
 .vancanciesContent{
     
     padding-left: 8%;
     padding-right: 0%;
-    /* margin: auto;
+    
 }
 .vancancies:hover{
     
