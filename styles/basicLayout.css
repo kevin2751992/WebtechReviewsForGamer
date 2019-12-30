@@ -276,8 +276,8 @@ footer{
     @media screen and (max-width: 600px) {
 
       footer a{
-        padding: 9px;
-        font-size: 10px;
+       
+        font-size: 6px;
         margin-right: 15px;
       }
       h4{
@@ -290,10 +290,4 @@ footer{
       
     }
 
-    @media screen and (max-width: 380px) {
-      footer a{
-     
-        font-size: 7px;
-        
-      }
-    }
+    
