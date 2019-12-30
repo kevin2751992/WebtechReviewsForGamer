@@ -41,6 +41,7 @@
 }
 .vancanciesTitle{
     color: rgb(29, 117, 121);
+    font-size:19px;
 }
 
 @media screen and (max-width: 480px) {
