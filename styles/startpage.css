@@ -134,25 +134,7 @@
 
 /*------Responsive----------*/
 @media screen and (max-width: 1024px) {
-  .newsticker {
-    width: 95%;
-}
-    .content.main{
-      width:100%;
-    }
-    .main-container {
-      width: 95%;
-  }
-    .dot{
-      height:10px;
-      width: 10px;
-    }
-
-    .content.newstickerSide{
-      width: 100%;
-    }
-   
-
+  
     .newsticker.newstext, .sliderCaptiontext {
       font-size: 10px ;
     }
@@ -161,41 +143,7 @@
     
       font-size: 12px ;
     }
-    .content.adsSide{
-      width: 100%;
-      float: left;
-    }
-    .adsContainer{
-      float: left;
-      width: 100%;
-    }
-    .optionalHeader{
-      display: none;
-    }
-    .aboButton{
-      display: block;
-      border-radius: 8px;
-      width: 80%;
-      height: -2%;
-      font-size: SMALL;
-      padding: 5px;
-      background-color: #1e7579;
-      color: white;
-      margin: auto;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-  .adsImg{
-      width: 27%;
-      height: auto;
-      margin: auto;
-      margin-right: 3%;
-      margin-left: 3%;
-      display: block;
-      float: left;
-      margin-bottom: 10px;
-  }
+    
 
     
     
