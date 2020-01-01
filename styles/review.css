@@ -85,6 +85,18 @@
   }
 
   @media screen and (max-width: 480px) {
+
+    .content.reviewAside {
+      width: 95%;
+  }
+
+    .content.main{
+      width:100%;
+    }
+    .main-container {
+      width: 95%;
+  }
+
     article{
       padding-left:5px;
     }
