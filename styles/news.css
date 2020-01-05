@@ -1,253 +1,78 @@
 /*------Boxsizing----------*/
 /*makes sure that the padding and border are included
  in the total width and height of all HTML elements.*/
+ @import "basicLayout.css"; 
 
- * {
-  box-sizing: border-box;
-  font-family: Verdana;
-}
 
-h2.content, h3.content, h4.content{
-  color: rgb(29, 117, 121);
-}
+ .content.main{
+   padding-left: 2%;
+   width: 75%;
+ }
 
-/*------Header----------*/
-.headerBanner {
-  width:  75%;
-}
-
-/*------Navbar----------*/
-.headerNavBar{
-  width: 100%;
-  background-color: #555;
-  overflow: auto;
-}
-.headerNavBar a{
-  float: left;
-  padding: 14px;
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-  width: 25%;
-  text-align: center;
-  box-sizing: border-box;
-}
-.headerNavBar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.headerNavBar a.active{
-  background-color:rgb(29, 117, 121);
-}
-/*------ContentLayout---------*/
-/*  Content will be set next to each other */
-.content {
-  float: left;
-}
-.content.header{
-color: rgb(29, 117, 121);
-float: none !important;
-border-bottom: 2px solid rgb(29, 117, 121);
-width:90%;
-}
-
-/* Left and right column Newsletter and Ads  */
-.content.adsSide {
-  width: 25%;
-}
-
-/*  MainContent Middle Column */
-.content.main {
-  width: 75%;
-}
-
-/* topNews content Klassen */
-
-.content.topNewsRow{
-  padding-left: 100px;
-}
-
-.content.topNews{
-  max-width: 300px;
-  padding: 10px;
-}
-
-.content.topNews a{
+ .content.main a{
   text-decoration: none;
   color:black;
+ }
+
+ .content.main a:hover{
+  color: rgb(14, 180, 189);
 }
 
-.content.topNews a:hover{
-  color: rgb(15, 161, 168);
-}
-
-
-/*  Newsletterbar */
-.content.highlightsHeadline{
-  
-  margin: 0px;
-  font-size: larger;
-  color: #000;
-}
-
-.highlightsText{
-  font-size: larger;
-  font-weight: bold;
-}
-
-
-/*------ADS---------*/
-.aboButton{
-display: block;
-border-radius: 8px;
-width: 80%;
-height: -2%;
-font-size: large;
-padding: 15px;
-background-color: #1e7579;
-color: white;
-margin: auto;
-margin-top: 15px;
-margin-bottom: 15px;
-text-align: center;
-}
-.aboButton:hover{
-color: black;
-
-}
-.adsImg{
-width:80%;
-height:auto;
-margin: auto;
-display: block;
-margin-top: 5%;
-margin-bottom: 5%;
-
-}
-footer{
-  background-color: #545454;
-  color: white;
-  width: 100%;
-  overflow: hidden;
-}
-footer a{
-  padding: 20px;
-  font-size: 16px;
-  color: white;
-  width: 15%;
-  /* margin: auto; */
+.content.main article{
   float: left;
-  text-align: center;
+  margin: 1%;
+  width: 48%;
 }
-footer a:hover{
-  background-color: #ddd;
-  color: black;
+
+.content.main p,h4{
+  padding: 1%;
 }
-footer img{
-  width: 15%;
-  position: relative;
-  
+
+.content.main img{
   float: right;
-  margin-right: 20px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 1%;
+  border-radius: 16px;
+  width: 50%;
+}
+
+.content.topNews article{
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /*------Responsive----------*/
-@media screen and (max-width: 1024px) {
-
-  .headerNavBar a {
-      float: left;
-      padding: 10px;
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
-      width: 25%;
-      text-align: center;
-      box-sizing: border-box;
+@media screen and (max-width: 1260px) {
+  
+  .content.main img{
+    width: 40%;
+  }
+    
     
   }
-  .content.header{
-    color: rgb(29, 117, 121);
-    float: none !important;
-    border-bottom: 2px solid rgb(29, 117, 121);
-    font-size: 12px;
-    width:90%;
-  }
-  .newsticker.newstext, .sliderCaptiontext {
-    font-size: 10px ;
-  }
+
+  @media screen and (max-width: 720px) {
   
-  .highlightContentSlides, .highlightHeaderSlides, .newsticker.newsHeader, .h3, .h2, .h1{
-  
-    font-size: 12px ;
-  }
-  .h4{
-    font-size: medium;
-  }
-  .aboButton{
-    display: block;
-    border-radius: 8px;
-    width: 80%;
-    height: -2%;
-    font-size: SMALL;
-    padding: 5px;
-    background-color: #1e7579;
-    color: white;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
+    .content.main img{
+      width: 0%;
+    }
+    
     
   }
-  
-}
-@media screen and (max-width: 480px) {
 
-    .content.main{
-      width: 70%;
-    }
-    .content.newstickerSide{
-      width: 30%;
-    }
-    .newsticker.newsHeader{
-      font-size: 10px;
-    }
-    .highlightContentSlides, .highlightHeaderSlides, .newsticker.newsHeader, .h3, .h2, .h1{
+  @media screen and (max-width: 480px) {
+
+
+      .content.main{
+        width:100%;
+      }
+
+      .content.main img{
+        width: 50%;
+      }
+      .content.main article{
+        width: 98%;
+      }
   
-      font-size: 10px ;
-    }
-    .content.adsSide{
-      width: 100%;
-      float: left;
-    }
-    .adsContainer{
-      float: left;
-      width: 100%;
-    }
-    .optionalHeader{
-      display: none;
-    }
-    .aboButton{
-      display: block;
-      border-radius: 8px;
-      width: 80%;
-      height: -2%;
-      font-size: SMALL;
-      padding: 5px;
-      background-color: #1e7579;
-      color: white;
-      margin: auto;
-      margin-top: 15px;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-    .adsImg{
-      width: 27%;
-      height: auto;
-      margin: auto;
-      margin-right: 3%;
-      margin-left: 3%;
-      display: block;
-      float: left;
-      margin-bottom: 10px;
-     }
 }
