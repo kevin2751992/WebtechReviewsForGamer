@@ -7,14 +7,14 @@
     font-size: 18px;
     display: inline-block;
     background-color: #1d7579;
-    padding:5px;
+ 
     border:solid, white;
     border-radius: 5px;
 }
 .persona{
    
-    max-width: 195px;
-    max-height: 275px;
+   
+    max-height: 310px;
     border: solid, white;
     border-radius: 10px;
     display: block;
@@ -29,7 +29,7 @@
     border-radius: 10px;
     background-color: #1d7579;
     text-align: center;
-    padding: 10px;
+    
     display: inline-block;
     margin: 10px;
   }
@@ -58,7 +58,9 @@
 }
 @media screen and (max-width: 480px) {
     .card {
-    max-width: 149px;
+    max-width: 55px;
+    padding: 0px;
+    margin:3px;
     }
     .persona{
         max-width: 130px;
@@ -67,6 +69,6 @@
     }
     .personaText{
         color: white;
-        font-size: x-small;
+        font-size: 7px;
     }
 }
