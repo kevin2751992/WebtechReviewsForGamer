@@ -56,6 +56,9 @@
                         <?php echo $email ?>
                         </p>
                         <p><a href="/newsletter.php">zurück</a> zum Newsletter</p>';
+                        $filename = "newsletterlist.txt";
+                        $file = fopen ('newsletterlist.txt', 'a') or die ("Fehler beim Schreiben");
+                        fwrite($file, $name." : ".$email."\n");
                     }
                     else {
                         echo '<h2>Bitte überprüfe, ob deine E-Mail korrekt ist</h2>
