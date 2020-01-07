@@ -44,20 +44,7 @@
     height: 20%;
     font-size: 14pt;
   }
-  input[type=submit] {
-    FONT-WEIGHT: 100;
-    display: block;
-    border-radius: 8px;
-    width: 40%;
-    font-size: SMALL;
-    padding: 10px;
-    background-color: #1e7579;
-    color: white;
-    margin: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-  }
+
 
   /* Clear floats after the columns */
 

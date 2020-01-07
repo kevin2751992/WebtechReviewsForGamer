@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles/newsletter.css">
+    <script src="scripts/newsletter.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <Header class="headerBanner">
+        <img class="headerBanner" src="assets/logo/logo.png" alt="GamesForReview Logo">
+    </Header>
+    <div class="headerNavBar" role="menubar">
+        <a class="headerNavbarElement" href="index.html" role="menuitem">Startseite</a>
+        <a class="headerNavbarElement" href="news.html"role="menuitem">News</a>
+        <a class="headerNavbarElement" href="review.html" role="menuitem">Reviews</a>
+        <a class="active" href="newsletter.html" role="menuitem">Newsletter</a>
+    </div>
+    <section class="content">
+        <!-- Main Content -->
+        <section class="content main">
+
+            <div class="newsletter container" role="form">
+                <h1 class="content header">Abboniere jetzt unseren Newsletter</h1>
+                <p class="newsletter text" role="document">Mit unseren Newslettern erhältst du genau die News, die
+                    dich interessieren - direkt in deine Mailbox.</p>
+                <input class="input element" type="text" placeholder="Name" id="name" maxlength="50"
+aria-label="Eingabefeld für den Namen">
+                <input class="input element" type="text" placeholder="E-Mail-Adresse" id="mail" maxlength="50"
+                    aria-label="Eingabefeld für die E-Mail-Adresse">
+                <button class="aboButton" onclick="testInput()" id="newsletterAboButton"
+                    aria-label="Eingaben abschicken und Newsletter abonnieren.">Abonnieren</button>
+            </div>
+        </section>
+        <!--ADS-->
+        <section class="content adsSide">
+
+            <aside>
+
+                <h2 class="content header optionalHeader">Unsere Partner</h2>
+                <div class="adsContainer">
+                    <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                    <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                    <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
+                </div>
+
+            </aside>
+
+        </section>
+    </section>
+    <footer>
+        <a href="impressum.html">Impressum</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="aboutUs.html">Über uns</a>
+        <a href="career.html">Karriere</a>
+    </footer>
+
+</body>
+
+</html>
