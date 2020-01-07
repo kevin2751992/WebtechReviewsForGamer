@@ -22,6 +22,7 @@
   float: left;
   margin: 1%;
   width: 48%;
+  border-bottom: 1px solid rgb(29, 117, 121);
 }
 
 .content.main p,h4{
@@ -54,25 +55,16 @@
 
   @media screen and (max-width: 720px) {
   
-    .content.main img{
-      width: 0%;
+    .content.main{
+      width:100%;
     }
-    
+
+    .content.main img{
+      width: 50%;
+    }
+    .content.main article{
+      width: 98%;
+    }   
     
   }
 
-  @media screen and (max-width: 480px) {
-
-
-      .content.main{
-        width:100%;
-      }
-
-      .content.main img{
-        width: 50%;
-      }
-      .content.main article{
-        width: 98%;
-      }
-  
-}
