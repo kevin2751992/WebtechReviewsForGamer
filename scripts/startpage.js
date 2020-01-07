@@ -4,15 +4,19 @@ setTimeout(showSlides(slideIndex),1000);
 
 function nextOrPrevSlide(n){
 
-    showSlides(slideIndex += n);
-    console.log("blubb");
-    
+    if(event.type==="click" || event.keyCode===13){
+        console.log("blubb", event.key);
+        showSlides(slideIndex += n);
+    }
+
 }
 function setCurrentSlide(n) {
-
-    showSlides(slideIndex = n);
+    (event.type==="click" || event.keyCode===13)
+    {
+         showSlides(slideIndex = n);
+    }
   }
-
+                                    
 function showSlides(n) {
     console.log("triggered");
  
