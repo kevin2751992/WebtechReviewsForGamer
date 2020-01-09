@@ -8,14 +8,14 @@
     display: inline-block;
     background-color: #1d7579;
  
-    border:solid, white;
+    border:solid white;
     border-radius: 5px;
 }
 .persona{
    
    
     max-height: 310px;
-    border: solid, white;
+    border: solid white;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -35,7 +35,7 @@
   }
   
   .title {
-    color: grbey;
+    color: grey;
     font-size: 18px;
   }
   

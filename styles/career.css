@@ -1,7 +1,7 @@
 @import "basicLayout.css";
 
 .containerImg{
-    background-image: "assets/karriere/teamwork.png";
+    background-image: url("assets/karriere/teamwork.png");
 }
 .karriereText{
     color: rgb(29, 117, 121);
