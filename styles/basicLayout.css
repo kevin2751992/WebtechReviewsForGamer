@@ -105,6 +105,11 @@ width: 80%;
     cursor: pointer;
     
   }
+  .aboButton:focus{
+    color: black;
+    cursor: pointer;
+    
+  }
   .adsImg{
    width:80%;
    height:auto;
