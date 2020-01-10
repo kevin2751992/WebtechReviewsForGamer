@@ -1,1 +1,66 @@
 @import "basicLayout.css"; 
+@import "newsletter.css"; 
+.Formular
+{
+    margin-left: -12%;
+    max-width: 50%;
+}
+
+#MeinVideo 
+{
+position: absolute;
+top: 80%;
+left: 60%;
+}
+
+#VideoText
+{
+position: absolute;
+top: 82%;
+left: 60%;
+}
+
+.Beschreibung
+{
+width: 90%;
+font-size: 16pt;
+line-height: 130%;
+margin-bottom: 7%;
+}
+
+.container {
+box-sizing: border-box;
+margin-left: 2%;
+align-items: center;
+background-image: url("http://prints.ultracoloringpages.com/a3aa06bc8d475f4659f899cda6e7717d.png");
+background-repeat: no-repeat;
+background-position: -40% 10%;
+}
+
+
+
+#anfrage {
+width: 70%;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 25%;
+height: 40%;
+font-size: 12pt;
+}
+
+.input.element::-moz-placeholder
+{
+color: black;
+}
+
+#anfrage::-moz-placeholder
+{
+font-size: 30pt;
+color: black;
+font-weight: 900;
+text-align: center;
+}
+
+
+
+
