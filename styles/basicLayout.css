@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: Verdana;
 }
+
+
 article{
   font-size: 19px;
   padding: 3px;
@@ -11,6 +13,9 @@ article{
 
 h2.content, h3.content, h4.content{
   color: rgb(29, 117, 121);
+}
+a:focus{
+  color:red
 }
 /*------Logo----------*/
 .headerBanner {

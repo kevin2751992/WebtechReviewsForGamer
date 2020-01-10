@@ -19,7 +19,7 @@
             <a class="active" href="index.html">Startseite</a>
             <a href="news.html">News</a>
             <a href="review.html">Reviews</a>
-            <a href="newsletter.html">Newsletter</a>
+            <a href="newsletter.php">Newsletter</a>
         </div>
     </nav>
     <main class="content">
@@ -94,18 +94,18 @@
                         <div class="text">Caption Three</div>
                     </div>
                     <!-- Next and previous buttons -->
-                    <a class="prev" onclick="nextOrPrevSlide(-1)">&#10094;</a>
-                    <a class="next" onclick="nextOrPrevSlide(1)">&#10095;</a>
+                    <a tabindex="0"class="prev" onkeydown="nextOrPrevSlide(-1)" onclick="nextOrPrevSlide(-1)">&#10094;</a>
+                    <a tabindex="0"class="next" onkeydown="nextOrPrevSlide(-1)" onclick="nextOrPrevSlide(1)">&#10095;</a>
                 </div>
                 <br>
                 <!-- The dots/circles -->
                 <div style="text-align:center">
-                    <span class="dot" onclick="setCurrentSlide(1)"></span>
-                    <span class="dot" onclick="setCurrentSlide(2)"></span>
-                    <span class="dot" onclick="setCurrentSlide(3)"></span>
+                    <a tabindex="0"class="dot" onkeydown="setCurrentSlide(1)" onclick="setCurrentSlide(1)"></a>
+                    <a tabindex="0" class="dot"  onkeydown="setCurrentSlide(2)" onclick="setCurrentSlide(2)"></a>
+                    <a tabindex="0" class="dot" onkeydown="setCurrentSlide(3)" onclick="setCurrentSlide(3)"></a>
                 </div>
 
-                <!-- ContentSlides-->
+                <!-- ContentSlides-->           
                 <div class="highlightContentSlides" style="display: block;">
                     <article>Nach der vorübergehenden Streichung aller Fördergelder und dem Vorwurf der
                         Planungsunsicherheit aus der Spielebranche sieht der neue Haushaltsentwurf der
@@ -138,7 +138,7 @@
             <aside>
 
                 <h2 class="content header optionalHeader">Unsere Partner</h2>
-                <a tabindex="0" class="aboButton">Abboniere jetzt unseren Newsletter</a>
+                <a tabindex="0" href="newsletter.php" class="aboButton">Abboniere jetzt unseren Newsletter</a>
                 <div class="adsContainer">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
