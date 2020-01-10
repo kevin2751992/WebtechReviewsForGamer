@@ -105,7 +105,6 @@ width: 80%;
     display: block;
     border-radius: 8px;
     width: 80%;
-    height: 2%; /*  positiv*/
     font-size: large;
     padding: 15px;
     background-color: #1e7579;
@@ -189,7 +188,6 @@ footer{
         display: block;
         border-radius: 8px;
         width: 80%;
-        height: 2%;      /*  positiv*/
         font-size: SMALL;
         padding: 5px;
         background-color: #1e7579;
@@ -261,7 +259,6 @@ footer{
             display: block;
             border-radius: 8px;
             width: 80%;
-            height: 2%; /*  positiv*/
             font-size: SMALL;
             padding: 5px;
             background-color: #1e7579;
