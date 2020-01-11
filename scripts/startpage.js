@@ -1,11 +1,11 @@
 //Slider script
 var slideIndex=1;
-setTimeout(showSlides(slideIndex),1000);
+
 
 function nextOrPrevSlide(n){
 
     if(event.type==="click" || event.keyCode===13){
-        console.log("blubb", event.key);
+        
         showSlides(slideIndex += n);
     }
 
@@ -18,8 +18,6 @@ function setCurrentSlide(n) {
   }
                                     
 function showSlides(n) {
-    console.log("triggered");
- 
     
     var i;
     var highlightHeadlineSlides = document.getElementsByClassName("highlightHeaderSlides");
