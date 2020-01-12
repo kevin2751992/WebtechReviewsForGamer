@@ -14,13 +14,13 @@
     width: 90%;
   }
   .newsticker.news{
-    border-bottom: 1px solid rgb(29, 117, 121);
+    border-bottom: 1px solid rgb(20, 80, 80);
     text-decoration: none;
     color: black;
   }
   .newsticker.news:hover{
     
-    color: rgb(29, 117, 121);
+    color: rgb(20, 100, 20);
   }
   .newsticker.newstext{
     font-size: 14px;
@@ -38,12 +38,29 @@
 .highlightImgSlides {
   display: none;
 }
+
+.highlightImgSlides img{
+  max-height: 600px;
+}
+
 .highlightHeaderSlides {
   display: none;
 }
+
 .highlightContentSlides {
   display: none;
 }
+
+
+.highlightsText.highlightHeaderSlides{
+  color: black;
+  text-decoration: none;
+}
+
+.highlightsText.highlightHeaderSlides:hover{
+  color: rgb(20, 100, 20);
+}
+
 
 /* Next & previous buttons */
 .prev, .next {

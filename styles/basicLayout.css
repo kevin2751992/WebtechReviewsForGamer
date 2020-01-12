@@ -12,7 +12,7 @@ article{
 }
 
 h2.content, h3.content, h4.content{
-  color: rgb(29, 117, 121);
+  color: rgb(20, 80, 80);
 }
 
 p a{
@@ -21,7 +21,7 @@ p a{
 }
 
 p a:hover{
-  background-color: #80c5c9;
+  color: rgb(20, 100, 20);
 }
 
 a:focus{
@@ -68,7 +68,7 @@ a:focus{
   .content.header{
     color: rgb(29, 117, 121);
     float: none !important;
-    border-bottom: 2px solid rgb(29, 117, 121);
+    border-bottom: 2px solid rgb(20, 80, 80);
     width:90%;
      
   }
@@ -83,7 +83,7 @@ width: 80%;
 .content.header{
     color: rgb(29, 117, 121);
     float: none !important;
-    border-bottom: 2px solid rgb(29, 117, 121);
+    border-bottom: 2px solid rgb(20, 80, 80);
     width:90%;
     font-size: x-large;
   }
@@ -182,7 +182,7 @@ footer{
     .content.header{
       color: rgb(29, 117, 121);
       float: none !important;
-      border-bottom: 2px solid rgb(29, 117, 121);
+      border-bottom: 2px solid rgb(20, 80, 80);
       font-size: large;
       width:90%;
     }

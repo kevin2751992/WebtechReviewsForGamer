@@ -15,7 +15,7 @@
  }
 
  .content.main a:hover{
-  color: rgb(14, 180, 189);
+  color: rgb(20, 100, 20);
 }
 
 .content.main article{
@@ -23,7 +23,7 @@
   height: 350px;
   margin: 1%;
   width: 48%;
-  border-bottom: 1px solid rgb(29, 117, 121);
+  border-bottom: 1px solid rgb(20, 80, 80);
 }
 
 .content.main p,h4{
