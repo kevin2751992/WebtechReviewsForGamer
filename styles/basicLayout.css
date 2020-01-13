@@ -3,6 +3,7 @@
  in the total width and height of all HTML elements.*/* {
   box-sizing: border-box;
   font-family: Verdana;
+  line-height: 130%;
 }
 
 
@@ -200,7 +201,7 @@ footer{
       
     }
     .content.header{
-      color: rgb(29, 117, 121);
+      color: rgb(20, 80, 80);;
       float: none !important;
       border-bottom: 2px solid rgb(20, 80, 80);
       font-size: large;
@@ -215,7 +216,7 @@ footer{
         width: 80%;
         font-size: SMALL;
         padding: 5px;
-        background-color: #1e7579;
+        background-color: rgb(20, 80, 80);;
         color: white;
         margin: auto;
         margin-top: 15px;
@@ -286,7 +287,7 @@ footer{
             width: 80%;
             font-size: SMALL;
             padding: 5px;
-            background-color: #1e7579;
+            background-color: rgb(20, 80, 80);
             color: white;
             margin: auto;
             margin-top: 15px;
