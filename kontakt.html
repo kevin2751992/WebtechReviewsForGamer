@@ -22,84 +22,69 @@
             <a href="review.html">Reviews</a>
             <a href="newsletter.php">Newsletter</a>
         </div>
-        <nav>
-            <section class="content">
-                <!-- Main Content -->
-                <section class="content main" style="width:100%">
-                    <!--Audiofiles für Blinde einbinden-->
+    </nav>
 
-                    <audio id="audiofile" preload="auto">
-                        <source src="assets/Soundeffekte/Ok.mp3">
-                    </audio>
+    <!-- Main Content -->
+    <section class="content main" style="width:100%">
+        <!--Audiofiles für Blinde einbinden-->
 
-                    <audio id="audiofile2" preload="auto">
-                        <source src="assets/Soundeffekte/First_Name.mp3">
-                    </audio>
+        <audio id="audiofile" preload="auto">
+            <source src="assets/Soundeffekte/Ok.mp3">
+        </audio>
 
-                    <audio id="audiofile3" preload="auto">
-                        <source src="assets/Soundeffekte/Last_Name.mp3">
-                    </audio>
+        <audio id="audiofile2" preload="auto">
+            <source src="assets/Soundeffekte/First_Name.mp3">
+        </audio>
 
-                    <audio id="audiofile4" preload="auto">
-                        <source src="assets/Soundeffekte/email.mp3">
-                    </audio>
+        <audio id="audiofile3" preload="auto">
+            <source src="assets/Soundeffekte/Last_Name.mp3">
+        </audio>
 
-                    <audio id="audiofile5" preload="auto">
-                        <source src="assets/Soundeffekte/message.mp3">
-                    </audio>
+        <audio id="audiofile4" preload="auto">
+            <source src="assets/Soundeffekte/email.mp3">
+        </audio>
 
+        <audio id="audiofile5" preload="auto">
+            <source src="assets/Soundeffekte/message.mp3">
+        </audio>
 
-                    <!--Tutorial einbinden-->
+        <!--Kontaktformular-->
 
-                    <video controls width="430" height="320" id="MeinVideo">
-                        <source src="assets/KontaktTutorial.mp4" type="video/mp4">
-                    </video>
+        <div class="container" role="form">
+            <h3 class="content header">Sprich uns an</h3>
+            <p class="Beschreibung" role="document">Fülle das Kontaktformular aus, um uns eine
+                Nachricht zu schreiben</p>
+            <div class="Formular" role="form">
+                <input class="input element" onmouseover="PlayFirstname()" type="text" placeholder="Vorname"
+                    id="firstname" maxlength="50" aria-label="Eingabefeld für deinen Vornamen">
+                <input class="input element" onmouseover="PlayLastname()" type="text" placeholder="Nachname"
+                    id="lastname" maxlength="50" aria-label="Eingabefeld für deinen Nachnamen">
+                <input class="input element" onmouseover="PlayEmail()" type="text" placeholder="E-Mail-Adresse"
+                    id="mail" maxlength="50" aria-label="Eingabefeld für die E-Mail-Adresse">
+                <textarea name="element2" onmouseover="PlayMessage()" rows="7" cols="50" placeholder="Ihre Anfrage"
+                    id="anfrage" maxlength="350" aria-label="Eingabefeld für Art der Anfrage"></textarea>
+                    <button class="aboButton" onmouseover="PlayOkay()" onclick="SomeInput()" id="KontaktButton"
+                    aria-label="Eingaben abschicken und Newsletter abonnieren.">Abschicken</button>
+            </div>
+            <div class="videoContainer">
+                <video controls id="MeinVideo">
+                    <source src="assets/KontaktTutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p id="VideoText"> Ihr Tutorial zum Kontaktformular </p>
+            </div>
+            
+        </div>
+         <!--Tutorial einbinden-->
+        
+        <!--ADS-->
+    </section>
+    <footer>
+        <a href="impressum.html">Impressum</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+        <a href="aboutUs.html">Über uns</a>
+        <a href="career.html">Karriere</a>
 
-                    <p id="VideoText">
-                        Ihr Tutorial zum Kontaktformular
-                    </p>
-
-
-                    <!--Kontaktformular-->
-
-                    <section class="content">
-                        <h2 class="content header">Kontaktformular</h2>
-
-                        <section class="content main">
-
-                            <div class="container" role="form">
-                                <h3 class="content header">Sprich uns an</h3>
-                                <p class="Beschreibung" role="document">Fülle das Kontaktformular aus, um uns eine
-                                    Nachricht zu schreiben</p>
-                                <div class="Formular" role="form">
-                                    <input class="input element" onmouseover="PlayFirstname()" type="text"
-                                        placeholder="Vorname" id="firstname" maxlength="50"
-                                        aria-label="Eingabefeld für deinen Vornamen">
-                                    <input class="input element" onmouseover="PlayLastname()" type="text"
-                                        placeholder="Nachname" id="lastname" maxlength="50"
-                                        aria-label="Eingabefeld für deinen Nachnamen">
-                                    <input class="input element" onmouseover="PlayEmail()" type="text"
-                                        placeholder="E-Mail-Adresse" id="mail" maxlength="50"
-                                        aria-label="Eingabefeld für die E-Mail-Adresse">
-                                    <textarea name="element2" onmouseover="PlayMessage()" rows="7" cols="50"
-                                        placeholder="Ihre Anfrage" id="anfrage" maxlength="350"
-                                        aria-label="Eingabefeld für Art der Anfrage"></textarea>
-                                </div>
-                                <button class="aboButton" onmouseover="PlayOkay()" onclick="SomeInput()"
-                                    id="KontaktButton"
-                                    aria-label="Eingaben abschicken und Newsletter abonnieren.">Abschicken</button>
-                            </div>
-                        </section>
-                    </section>
-                </section>
-                <!--ADS-->
-            </section>
-            <footer>
-                <a href="impressum.html">Impressum</a>
-                <a class="active" href="kontakt.html">Kontakt</a>
-                <a href="aboutUs.html">Über uns</a>
-                <a href="career.html">Karriere</a>
-
-            </footer>
+    </footer>
 
 </body>

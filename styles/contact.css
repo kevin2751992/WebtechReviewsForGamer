@@ -4,20 +4,25 @@
 {
     margin-left: -12%;
     max-width: 50%;
+    float: left;
+ 
+}
+.videoContainer{
+float: left;
+width: 50%;
+padding:2%;
 }
 
 #MeinVideo 
 {
-position: absolute;
-top: 44%;
-left: 65%;
+
+width: 100%;
 }
 
 #VideoText
 {
-position: absolute;
-top: 98%;
-left: 65%;
+position: relative;
+width: 100%;
 }
 
 .Beschreibung
@@ -32,9 +37,10 @@ margin-bottom: 7%;
 box-sizing: border-box;
 margin-left: 2%;
 align-items: center;
-background-image: url("http://prints.ultracoloringpages.com/a3aa06bc8d475f4659f899cda6e7717d.png");
 background-repeat: no-repeat;
 background-position: -40% 10%;
+float: left;
+width: 90%;
 }
 
 .input.element
@@ -42,6 +48,7 @@ background-position: -40% 10%;
 font-size: 30px;
 color: black;
 background-color: lightblue;
+width: 70%;
 }
 
 
