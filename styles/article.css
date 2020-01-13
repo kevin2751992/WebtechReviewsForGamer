@@ -16,8 +16,8 @@
   width: 560px;
   height: 315px;
   margin: auto;
-  border-top: 10px solid #1e7579;
-  border-bottom: 10px solid #1e7579;
+  border-top: 10px solid rgb(20, 80, 80);
+  border-bottom: 10px solid rgb(20, 80, 80);
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -40,7 +40,7 @@
   padding: 5%;
   margin-right: 10%;
   margin-top: 10%;
-  background: #1d7579;
+  background: rgb(20, 80, 80);
   border: solid white;
   border-radius: 15px;
 }
@@ -51,7 +51,7 @@
   display: block;
   margin-top: 5%;
   margin-bottom: 5%;
-  border: #1d7579;
+  border: rgb(20, 80, 80);
   border-radius: 90px;
   position: relative;
     left: 10%;
@@ -101,7 +101,7 @@
     padding: 5%;
     margin-right: 10%;
     margin-top: 10%;
-    background: #1d7579;
+    background: rgb(20, 80, 80);
     border: solid white;
     border-radius: 15px;
     margin-left: 5%;
