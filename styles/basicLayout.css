@@ -24,9 +24,6 @@ p a:hover{
   color: rgb(20, 100, 20);
 }
 
-a:focus{
-  color:red
-}
 /*------Logo----------*/
 .headerBanner {
   width: 75%;
@@ -51,8 +48,23 @@ a:focus{
     background-color: #ddd;
     color: black;
 }
+
+.headerNavBar a:focus {
+  background-color: #ddd;
+  color: black;
+}
+
 .headerNavBar a.active{
-    background-color:rgb(29, 117, 121);
+    background-color:rgb(20, 80, 80);
+}
+
+.headerNavBar a.active:hover{
+  background-color: #ddd;
+}
+
+.headerNavBar a.active:focus{
+  background-color: #ddd;
+  color: black;
 }
 
 /*------General Content----------*/
@@ -66,7 +78,7 @@ a:focus{
     width:50%;
   }
   .content.header{
-    color: rgb(29, 117, 121);
+    color: rgb(20, 80, 80);
     float: none !important;
     border-bottom: 2px solid rgb(20, 80, 80);
     width:90%;
@@ -81,7 +93,7 @@ width: 80%;
   }
 
 .content.header{
-    color: rgb(29, 117, 121);
+    color: rgb(20, 80, 80);
     float: none !important;
     border-bottom: 2px solid rgb(20, 80, 80);
     width:90%;
@@ -107,7 +119,7 @@ width: 80%;
     width: 80%;
     font-size: large;
     padding: 15px;
-    background-color: #1e7579;
+    background-color: rgb(20, 80, 80);
     color: white;
     margin: auto;
     margin-top: 15px;
@@ -116,11 +128,13 @@ width: 80%;
   }
   .aboButton:hover{
     color: black;
+    background-color: #ddd;
     cursor: pointer;
     
   }
   .aboButton:focus{
     color: black;
+    background-color: #ddd;
     cursor: pointer;
     
   }
@@ -154,6 +168,12 @@ footer{
     background-color: #ddd;
     color: black;
   }
+
+  footer a:focus{
+    background-color: #ddd;
+    color: black;
+  }
+
   footer img{
     width: 15%;
     position: relative;
