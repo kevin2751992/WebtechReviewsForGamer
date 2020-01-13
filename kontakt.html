@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="styles/article.css">
-    <script src="scripts/startpage.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/contact.css">
+    <script src="scripts/sound.js"></script>
+    <script src="scripts/kontact.js"></script>
     <title>Document</title>
 </head>
 
@@ -21,46 +22,69 @@
             <a href="review.html">Reviews</a>
             <a href="newsletter.php">Newsletter</a>
         </div>
-        <nav>
-            <section class="content">
-                <!-- Main Content -->
-                <section class="content main" style="width:100%">
-                    <h3>Impressum von GamesForReview.de</h3>
-                    <p>
-                        <span>
-                            GamesForReview GmbH
-                            <br>
-                            Maxmusterstr 55
-                            <br>
-                            11111 Musterstadt
-                            <br>
-                            Tel.: +49 (01) 234 567 789
-                            <br>
-                        </span>
-                        <br>
-                        <span>
-                            Geschäftsführer: Kevin Meßmer
-                            <br>
-                            Registergericht: Amtsgericht Musterstadt
-                            <br>
-                            Handelsregisternummer: HR M 123 456
-                            <br>
-                            USt-ID Nr.: DE 123 45 67 89
-                        </span>
+    </nav>
 
+    <!-- Main Content -->
+    <section class="content main" style="width:100%">
+        <!--Audiofiles für Blinde einbinden-->
 
-                    </p>
+        <audio id="audiofile" preload="auto">
+            <source src="assets/Soundeffekte/Ok.mp3">
+        </audio>
 
-                </section>
-                <!--ADS-->
-            </section>
-            <footer>
-                <a href="impressum.html">Impressum</a>
-                <a class="active" href="kontakt.html">Kontakt</a>
-                <a href="aboutUs.html">Über uns</a>
-                <a href="career.html">Karriere</a>
-                
-            </footer>
+        <audio id="audiofile2" preload="auto">
+            <source src="assets/Soundeffekte/First_Name.mp3">
+        </audio>
+
+        <audio id="audiofile3" preload="auto">
+            <source src="assets/Soundeffekte/Last_Name.mp3">
+        </audio>
+
+        <audio id="audiofile4" preload="auto">
+            <source src="assets/Soundeffekte/email.mp3">
+        </audio>
+
+        <audio id="audiofile5" preload="auto">
+            <source src="assets/Soundeffekte/message.mp3">
+        </audio>
+
+        <!--Kontaktformular-->
+
+        <div class="container" role="form">
+            <h3 class="content header">Sprich uns an</h3>
+            <p class="Beschreibung" role="document">Fülle das Kontaktformular aus, um uns eine
+                Nachricht zu schreiben</p>
+            <div class="Formular" role="form">
+                <input class="input element" onmouseover="PlayFirstname()" type="text" placeholder="Vorname"
+                    id="firstname" maxlength="50" aria-label="Eingabefeld für deinen Vornamen">
+                <input class="input element" onmouseover="PlayLastname()" type="text" placeholder="Nachname"
+                    id="lastname" maxlength="50" aria-label="Eingabefeld für deinen Nachnamen">
+                <input class="input element" onmouseover="PlayEmail()" type="text" placeholder="E-Mail-Adresse"
+                    id="mail" maxlength="50" aria-label="Eingabefeld für die E-Mail-Adresse">
+                <textarea name="element2" onmouseover="PlayMessage()" rows="7" cols="50" placeholder="Ihre Anfrage"
+                    id="anfrage" maxlength="350" aria-label="Eingabefeld für Art der Anfrage"></textarea>
+                    <button class="aboButton" onmouseover="PlayOkay()" onclick="SomeInput()" id="KontaktButton"
+                    aria-label="Eingaben abschicken und Newsletter abonnieren.">Abschicken</button>
+            </div>
+            <div class="videoContainer">
+                <video controls id="MeinVideo">
+                    <source src="assets/KontaktTutorial.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p id="VideoText"> Ihr Tutorial zum Kontaktformular </p>
+            </div>
+            
+        </div>
+         <!--Tutorial einbinden-->
+        
+        <!--ADS-->
+    </section>
+    <footer>
+        <a href="impressum.html">Impressum</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+        <a href="aboutUs.html">Über uns</a>
+        <a href="career.html">Karriere</a>
+
+    </footer>
 
 </body>
-

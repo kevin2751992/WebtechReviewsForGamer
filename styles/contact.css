@@ -1,0 +1,155 @@
+@import "basicLayout.css"; 
+@import "newsletter.css"; 
+.Formular
+{
+    margin-left: -12%;
+    max-width: 50%;
+    float: left;
+ 
+}
+.videoContainer{
+float: left;
+width: 50%;
+padding:2%;
+}
+
+#MeinVideo 
+{
+
+width: 100%;
+}
+
+#VideoText
+{
+position: relative;
+width: 100%;
+}
+
+.Beschreibung
+{
+width: 90%;
+font-size: 16pt;
+line-height: 130%;
+margin-bottom: 7%;
+}
+
+.container {
+box-sizing: border-box;
+margin-left: 2%;
+align-items: center;
+background-repeat: no-repeat;
+background-position: -40% 10%;
+float: left;
+width: 90%;
+}
+
+.input.element
+{
+font-size: 30px;
+color: black;
+background-color: lightblue;
+width: 70%;
+}
+
+
+
+#anfrage {
+width: 70%;
+margin-top: 5%;
+margin-bottom: 5%;
+margin-left: 25%;
+height: 40%;
+font-size: 12pt;
+background-color: lightblue;
+}
+
+.input.element::-moz-placeholder
+{
+color: black;
+}
+
+#anfrage::-moz-placeholder
+{
+font-size: 30pt;
+color: black;
+font-weight: 900;
+text-align: center;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 1024px) {
+    
+    
+    .Beschreibung
+    {
+    width: 90%;
+    font-size: 9pt;
+    line-height: 130%;
+    margin-bottom: 7%;
+    }
+    
+    .input.element
+    {
+    font-size: 17px;
+    color: black;
+    background-color: lightblue;
+    }
+    
+    
+    
+    #anfrage {
+    width: 70%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+    height: 40%;
+    font-size: 8px;
+    background-color: lightblue;
+    }
+    
+    #anfrage::-moz-placeholder
+    {
+    font-size: 17pt;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Beschreibung
+    {
+    width: 90%;
+    font-size: 7px;
+    line-height: 130%;
+    margin-bottom: 7%;
+    }
+    
+    .input.element
+    {
+    font-size: 12px;
+    color: black;
+    background-color: lightblue;
+    }
+    
+    #anfrage {
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    height: 40%;
+    font-size: 5px;
+    background-color: lightblue;
+    }
+    
+    #anfrage::-moz-placeholder
+    {
+    font-size: 12px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    }
+}
+
+
