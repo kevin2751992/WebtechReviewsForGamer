@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles/newsletter.css">
-    <title>Document</title>
+    <title>Newsletter</title>
 </head>
 
 <body>
     <Header class="headerBanner">
         <img class="headerBanner" src="assets/logo/logo.png" alt="GamesForReview Logo">
     </Header>
-    <div class="headerNavBar" role="menubar">
-        <a class="headerNavbarElement" href="index.html" role="menuitem">Startseite</a>
-        <a class="headerNavbarElement" href="news.html" role="menuitem">News</a>
-        <a class="headerNavbarElement" href="review.html" role="menuitem">Reviews</a>
-        <a class="active" href="newsletter.html" role="menuitem">Newsletter</a>
-    </div>
-    <section class="content">
+    <nav>
+        <div class="headerNavBar">
+            <a href="index.html">Startseite</a>
+            <a class="active"  href="news.html">News</a>
+            <a href="review.html">Reviews</a>
+            <a href="newsletter.php">Newsletter</a>
+        </div>
+    </nav>
+    <main class="content">
         <!-- Main Content -->
         <section class="content main">
 
@@ -100,10 +102,8 @@
         </section>
         <!--ADS-->
         <section class="content adsSide">
-
+            <h2 class="content header optionalHeader">Unsere Partner</h2>
             <aside>
-
-                <h2 class="content header optionalHeader">Unsere Partner</h2>
                 <div class="adsContainer">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
                     <img class="adsImg" src="assets/advertising.jpg" alt="Advertising">
@@ -113,7 +113,7 @@
             </aside>
 
         </section>
-    </section>
+    </main>
     <footer>
         <a href="impressum.html">Impressum</a>
         <a href="kontakt.html">Kontakt</a>
