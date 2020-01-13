@@ -22,6 +22,16 @@
   margin-bottom: 5%;
 }
 
+.video:hover{
+  border-top: 10px solid rgb(20, 100, 20);
+  border-bottom: 10px solid rgb(20, 100, 20);
+}
+
+.video:focus{
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+}
+
 .pinboardTitle{
  margin: auto;
  color: white;
