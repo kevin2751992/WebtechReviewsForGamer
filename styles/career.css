@@ -4,8 +4,8 @@
     background-image: url("assets/karriere/teamwork.png");
 }
 .karriereText{
-    color: rgb(29, 117, 121);
-    border-bottom: 2px solid rgb(29, 117, 121);
+    color: rgb(20, 80, 80);
+    border-bottom: 2px solid rgb(20, 80, 80);
     width:90%;
 }
 .centered {
@@ -37,16 +37,16 @@
 .vancancies:hover{
     
     cursor: pointer;
-    color: rgb(29, 117, 121);
+    color: rgb(20, 100, 20);
 }
 .vancanciesTitle{
-    color: rgb(29, 117, 121);
+    color: rgb(20, 80, 80);
     font-size:19px;
 }
 
 @media screen and (max-width: 480px) {
     .vancanciesTitle{
-        color: rgb(29, 117, 121);
+        color: rgb(20, 80, 80);
         font-size:12px;
     }
     .vancancies{
