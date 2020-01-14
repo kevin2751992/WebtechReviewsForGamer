@@ -10,6 +10,8 @@
 article{
   font-size: 19px;
   padding: 3px;
+  margin-bottom: 5%;
+  margin-top: 5%;
 }
 
 h2.content, h3.content, h4.content{
