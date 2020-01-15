@@ -16,9 +16,9 @@
     <nav>
         <div class="headerNavBar">
             <a href="index.html">Startseite</a>
-            <a class="active"  href="news.html">News</a>
+            <a href="news.html">News</a>
             <a href="review.html">Reviews</a>
-            <a href="newsletter.php">Newsletter</a>
+            <a class="active" href="newsletter.php">Newsletter</a>
         </div>
     </nav>
     <main class="content">
@@ -89,10 +89,12 @@
 
                 <form action="newsletter.php" method="POST">
 
+               
                     <input class="input element" type="text" placeholder="Name" name="name" maxlength="50" aria-label="Eingabefeld für den Namen">
-
+               
+                    
                     <input class="input element" type="text" placeholder="E-Mail-Adresse" name="mail" maxlength="50" aria-label="Eingabefeld für die E-Mail-Adresse">
-
+                
                     <input type="submit" value="Submit">
 
                 </form>
