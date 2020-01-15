@@ -54,6 +54,7 @@
     }
 
 
+
     .content.main img{
       width: 50%;
     }
@@ -64,8 +65,44 @@
     .content.main article{
       height: 200px;
       width: 98%;
-    }   
-    
+    }
+    .content.adsSide{
+            width: 100%;
+            float: left;
+          }
+          .adsContainer{
+            float: left;
+            width: 100%;
+          }
+          .optionalHeader{
+            display: none;
+          }
+    .aboButton{
+            display: block;
+            border-radius: 8px;
+            width: 80%;
+            font-size: SMALL;
+            padding: 5px;
+            background-color: rgb(20, 80, 80);
+            color: white;
+            margin: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            
+    }
+          
+    .adsImg{
+            width: 27%;
+            height: auto;
+            margin: auto;
+            margin-right: 3%;
+            margin-left: 3%;
+            display: block;
+            float: left;
+            margin-bottom: 10px;
+    }
+
   }
 
   @media screen and (max-width: 300px) {
