@@ -44,6 +44,7 @@
     height: 20%;
     font-size: 14pt;
   }
+
   input[type=submit] {
     FONT-WEIGHT: 100;
     display: block;
@@ -51,12 +52,17 @@
     width: 40%;
     font-size: SMALL;
     padding: 10px;
-    background-color: #1e7579;
+    background-color: rgb(20, 80, 80);
     color: white;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
     text-align: center;
+  }
+
+  input[type=submit]:focus{
+    background-color: #ddd;
+    color: black;
   }
 
   /* Clear floats after the columns */
