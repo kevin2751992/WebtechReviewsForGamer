@@ -13,19 +13,17 @@
 }
 .video{
   display: flex;
-  width: 560px;
-  height: 315px;
+  width: 90%;
+  height: auto;
+  min-height: 400px;
   margin: auto;
-  border-top: 10px solid rgb(20, 80, 80);
-  border-bottom: 10px solid rgb(20, 80, 80);
+
+  border-radius: 30px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 
-.video:hover{
-  border-top: 10px solid rgb(20, 100, 20);
-  border-bottom: 10px solid rgb(20, 100, 20);
-}
+
 
 .video:focus{
   border-top: 10px solid red;
@@ -70,8 +68,9 @@
    
   }
   .video{
-    width: 60%;
-    height: 250px;
+    width: 100%;
+    min-height: 250px;
+    
   }
 }
 @media screen and (max-width: 720px) {
@@ -108,6 +107,6 @@
 }
   .video{
     width: 100%;
-    height: 250px;
+    min-height: 200px;
   }
 }
