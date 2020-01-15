@@ -79,12 +79,15 @@
   
 /*------Responsive----------*/
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 720px) {
 
     .content.reviewAside {
       width: 95%;
   }
-
+  .highlightImg {
+    width: 90%;
+    max-height: 350px;
+  }
     .content.main{
       width:100%;
     }
@@ -97,14 +100,15 @@
       padding-left:5px;
     }
     .newsHeader {
-      font-size: x-small;
+      font-size: small;
   }
     .reviewlist.reviewtext {
-      font-size: 9px;
+      font-size: 12px;
 }
     .reviewlist.text{
       text-align: left;
-      font-size:xx-small;
+      font-size:small;
+      
     }
     .reviewTicker.text.topTipp{
       font-size: 12px;
