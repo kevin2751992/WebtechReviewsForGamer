@@ -13,13 +13,11 @@
     <Header class="headerBanner">
         <img class="headerBanner" src="assets/logo/logo.png" alt="GamesForReview Logo">
     </Header>
-    <nav>
-        <div class="headerNavBar">
+    <nav class="headerNavBar">
             <a href="index.html">Startseite</a>
             <a href="news.html">News</a>
             <a href="review.html">Reviews</a>
             <a class="active" href="newsletter.php">Newsletter</a>
-        </div>
     </nav>
     <main class="content">
         <!-- Main Content -->

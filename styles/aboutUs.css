@@ -1,7 +1,6 @@
 @import "basicLayout.css";
 
 .personaCard{
-
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 500px;
     font-size: 18px;
@@ -11,8 +10,6 @@
     
 }
 .persona{
-   
-   
     max-height: 310px;
     border: solid white;
     border-radius: 10px;
@@ -52,20 +49,15 @@
     font-size: medium;
 }
 
-@media screen and (max-width: 1065px) {
-    
-    
-}
 @media screen and (max-width: 480px) {
     .card {
-    max-width: 55px;
-    padding: 0px;
-    margin:3px;
+        max-width: 55px;
+        padding: 0px;
+        margin:3px;
     }
     .persona{
         max-width: 130px;
         max-height: 180px;
-
     }
     .personaText{
         color: white;

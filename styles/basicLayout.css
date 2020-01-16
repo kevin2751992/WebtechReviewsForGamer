@@ -104,7 +104,6 @@ width: 80%;
   }
 
 .content.highlightsHeadline{
-    
     margin: 0px;
     font-size: larger;
     color: #000;
@@ -235,15 +234,14 @@ footer a.active:focus{
         margin: auto;
         margin-top: 15px;
         margin-bottom: 15px;
-        text-align: center;
-        
+        text-align: center; 
       }
 
       
       footer a {
         padding: 13px;
         font-size: 12px;
-    }
+      }
      
       footer img{
         width: 15%;
@@ -259,67 +257,74 @@ footer a.active:focus{
         font-size: small;
         padding-left:5px;
       }
+
       p{
         font-size: small;
       }
+
       h1,h2,h3,h4{
         font-size: 12px;
       }
       
-
       .headerNavBar a {
         font-size: 10px;
-    }
+      }
   
-        .content.main{
-          width: 65%;
-          padding-left: 5px;
-        }
-        .content.header{
-          font-size: smaller;
-        }
+      .content.main{
+        width: 65%;
+        padding-left: 5px;
+      }
+      .content.header{
+        font-size: smaller;
+      }
        
-          .content.adsSide{
-            width: 100%;
-            float: left;
-          }
-          .adsContainer{
-            float: left;
-            width: 100%;
-          }
-          .optionalHeader{
-            display: none;
-          }
-          .aboButton{
-            display: block;
-            border-radius: 8px;
-            width: 80%;
-            font-size: SMALL;
-            padding: 5px;
-            background-color: rgb(20, 80, 80);
-            color: white;
-            margin: auto;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            text-align: center;
-          }
-        .adsImg{
-            width: 27%;
-            height: auto;
-            margin: auto;
-            margin-right: 3%;
-            margin-left: 3%;
-            display: block;
-            float: left;
-            margin-bottom: 10px;
-        }
+      .content.adsSide{
+        width: 100%;
+        float: left;
+      }
 
-        footer a{
-          padding: 10px;
-          font-size: 10px;
-          margin-right: 15px;
-        }
+      .adsContainer{
+        float: left;
+        width: 100%;
+      }
+
+      .optionalHeader{
+        display: none;
+      }
+
+      .aboButton{
+        display: block;
+        border-radius: 8px;
+        width: 80%;
+        font-size: SMALL;
+        padding: 5px;
+        background-color: rgb(20, 80, 80);
+        color: white;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .adsImg{
+          width: 27%;
+          height: auto;
+          margin: auto;
+          margin-right: 3%;
+          margin-left: 3%;
+          display: block;
+          float: left;
+          margin-bottom: 10px;
+       }
+
+      footer a{
+        padding: 10px;
+        font-size: 10px;
+        margin-right: 15px;
+      }
+
     }
+
     @media screen and (max-width: 600px) {
 
       footer a{
@@ -327,6 +332,7 @@ footer a.active:focus{
         font-size: 6px;
         margin-right: 15px;
       }
+      
       h4{
         font-size: small;
       }

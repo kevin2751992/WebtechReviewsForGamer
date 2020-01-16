@@ -9,16 +9,6 @@
 }
 
 
-/*------Navbar----------*/
-
-
-/*------ContentLayout---------*/
-/*  Content will be set next to each other */
-
-
-  /* Left and right column Newsletter and Ads  */
-  
-
   /*  MainContent Middle Column */
  
   .newsletter.container{
@@ -64,14 +54,6 @@
     background-color: #ddd;
     color: black;
   }
-
-  /* Clear floats after the columns */
-
-/*------ADS---------*/
-
-
-
-
 
 
 /*------Responsive----------*/
